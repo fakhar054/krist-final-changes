@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+.sign-up {
+  font-family: "Jost" !important;
+}
+#sign-up .d_flex {
+  display: flex;
+}
+
+#sign-up .height_width {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  position: relative;
+}
+
+#sign-up .height_width img.logoImg {
+  height: auto;
+  width: 130px;
+  position: absolute;
+  background: none;
+  left: 30px;
+  top: 30px;
+}
+#sign-up h2 {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Jost" !important;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+#sign-up img {
+  height: 100vh;
+  width: 100%;
+}
+#sign-up form label {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0 !important;
+}
+#sign-up form input.border_radius {
+  border-radius: 11px !important;
+  border: 1px solid #626665;
+}
+
+#sign-up .rember_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+#sign-up .check_box_div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#sign-up input.large {
+  width: 430px;
+  height: 54px;
+}
+#sign-up button {
+  font-family: "Jost" !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black;
+  background-color: white;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+/* Style checkbox when checked */
+input[type="checkbox"]:checked {
+  background-color: black !important;
+  border-color: black;
+}
+
+/* Create the tick symbol */
+input[type="checkbox"]:checked::after {
+  content: "✔"; /* Unicode tick symbol */
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 1024px) {
+  #sign-up h2 {
+    font-size: 32px;
+    height: 34px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #sign-up img {
+    display: none;
+  }
+  #sign-up input.large {
+    max-width: 100%;
+  }
+  #sign-up .j-center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 430px) {
+  #sign-up input.large {
+    width: 100%;
+    height: 40px;
+  }
+}

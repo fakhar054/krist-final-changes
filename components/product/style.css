@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Jost", serif;
+}
+.icon_wishlist {
+  color: green;
+}
+/* .grid_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+} */
+.results_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #626665;
+}
+.results {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.results .img_div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.all_product_parent_div {
+  width: 100%;
+  display: flex;
+  /* gap: 1.7rem; */
+  /* justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  position: relative;
+}
+.pop_up_prop {
+  position: fixed;
+  z-index: 999;
+  border: 1px solid black;
+  top: 80px;
+  right: 30px;
+  /* transform: translate(-50%); */
+}
+.pro_item {
+  /* width: 30% !important; */
+  box-sizing: border-box;
+}
+
+#AllProduct {
+  height: auto !important;
+}
+#AllProduct .img_div {
+  height: auto;
+  position: relative;
+}
+.all_product_parent_div img {
+  width: 100%;
+  height: 251px;
+  border-radius: 10px;
+}
+#AllProduct .icon_size {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  fill: red !important;
+}
+
+#AllProduct h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 10px;
+  font-family: "Jost", serif;
+}
+#AllProduct p.detail {
+  font-weight: 400;
+  font-size: 13px;
+  color: #626665;
+  padding-left: 10px;
+}
+#AllProduct p.price {
+  font-size: 13px;
+  font-weight: 500;
+}
+#AllProduct .old_price {
+  text-decoration: line-through;
+  color: #626665;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 0 !important;
+}
+#AllProduct .price_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 10px;
+}
+.cart {
+  height: 43px;
+  width: 176px;
+  font-weight: 600;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: end;
+}
+.pagination p {
+  margin-top: 0 !important;
+  height: 24px;
+  width: 24px;
+  border-radius: 6px;
+  border: 1px solid #626665;
+  margin-top: 0 !important;
+  cursor: pointer;
+  text-align: center;
+}
+.pagination p.active {
+  background-color: black;
+  color: white;
+}
+.pagination .icon_prop {
+  font-size: 15px;
+  margin-left: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 770px) {
+  .all_product_parent_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .all_product_parent_div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pro_item {
+    width: 100% !important;
+  }
+}
+.pagnation {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: end;
+}
+
+.pagnation p.active {
+  background-color: black;
+  color: white;
+}
+.pagnation .icon_prop {
+  font-size: 15px;
+  margin-left: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* skelton */
+.skeleton {
+  background: #ddd;
+  border-radius: 5px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.skeleton-img {
+  width: 100%;
+  height: 200px;
+}
+
+.skeleton-title {
+  width: 80%;
+  height: 20px;
+  margin: 10px auto;
+}
+
+.skeleton-detail {
+  width: 60%;
+  height: 15px;
+  margin: 5px auto;
+}
+
+.skeleton-price {
+  width: 50%;
+  height: 20px;
+  margin: 5px auto;
+}
+
+.skeleton-button {
+  width: 70%;
+  height: 30px;
+  margin: 10px auto;
+}
+
+@keyframes pulse {
+  0% {
+    background: #f3f3f3;
+  }
+  50% {
+    background: #e0e0e0;
+  }
+  100% {
+    background: #f3f3f3;
+  }
+}
+
+.skeleton-box {
+  background-color: #e0e0e0;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.skeleton-line {
+  background-color: #e0e0e0;
+  height: 10px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

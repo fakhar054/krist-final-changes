@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Jost", serif;
+}
+.featured_products_panel h2 {
+  font-family: "Jost", serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.featured_products_panel .my_content_div h4 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Jost", serif;
+  margin-bottom: 0 !important;
+}
+.featured_products_panel p.description {
+  font-size: 13px;
+  font-weight: 400;
+  color: #626665;
+}
+.featured_products_panel .prices {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.featured_products_panel .prices p {
+  font-size: 13px;
+  font-weight: 500;
+}

@@ -1,0 +1,61 @@
+.myProfile_parent_div {
+  max-width: 284px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.myProfile_parent_div h4 {
+  border-bottom: 2px solid #f6f6f6;
+  padding-bottom: 15px;
+}
+.myProfile_parent_div .bottom_border {
+  width: 100%;
+  padding: 10px 12px;
+  background-color: black;
+  border-radius: 6px;
+  color: white;
+}
+
+.flex_props p {
+  font-size: 17px;
+  font-weight: 500;
+  /* padding: 10px 12px; */
+}
+
+.myProfile p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #626665;
+}
+
+.myProfile h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.myProfile .img_div img {
+  height: 50px;
+  width: 50px;
+}
+.myProfile_parent_div .flex_props {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .myProfile_parent_div {
+    max-width: 100% !important;
+  }
+}
+
+.profile_heading {
+  font-family: "Jost" !important;
+  font-size: 34px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.user_info {
+  line-height: 34px;
+}

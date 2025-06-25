@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+.saved_cards {
+  font-family: "Jost" !important;
+  position: relative;
+}
+.heading_div {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.mar_top {
+  margin-top: 90px;
+}
+.saved_cards p#btn {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  padding: 8px 10px;
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.saved_cards .left_main_div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.saved_cards .left_main_div img {
+  width: 71px;
+  height: 41px;
+}
+.saved_cards .parent_flex_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b8b9b9;
+}
+.saved_cards .left_main_div h6 {
+  margin-bottom: 0 !important;
+  font-family: "Jost" !important;
+  font-size: 24px;
+  font-weight: 600;
+}
+.saved_cards button.delte {
+  background-color: #fee2e2;
+  color: #ff5c5e;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  outline: none;
+  border: none;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .second_row {
+    margin-top: 20px !important;
+  }
+}

@@ -1,0 +1,29 @@
+.slider-container {
+  max-width: 200px;
+  /* margin: auto; */
+  border-radius: 12px;
+  text-align: center;
+}
+
+.slider-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+/* .custom-slider .MuiSlider-thumb {
+} */
+.custom-slider .MuiSlider-thumb {
+  color: black;
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.custom-slider .MuiSlider-track {
+  color: #6200ea;
+}
+
+.slider-value {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+}

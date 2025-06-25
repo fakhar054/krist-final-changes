@@ -1,0 +1,10 @@
+.parent_relative_div {
+  position: relative;
+}
+.heading_div {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}

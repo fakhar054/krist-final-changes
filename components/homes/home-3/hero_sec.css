@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+#hero_sec {
+  min-height: calc(100vh - 80px);
+  background-color: #ececec;
+  /* background-color: red; */
+  /* margin-top: 144px; */
+  margin-top: 127px;
+  font-family: "Jost" !important;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 80px);
+  padding-top: 100px;
+}
+
+.hero_sec .y-center {
+  height: 100%;
+  align-items: center;
+}
+
+#hero_sec h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: black;
+  font-family: "Jost" !important;
+}
+#hero_sec h3 {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Jost" !important;
+}
+#hero_sec .tick_single {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#hero_sec .tick_sec_parent {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.tick_single .icon_size {
+  height: 18px;
+  width: 21px;
+  color: #06a31e;
+}
+.hero_sec .add_to_cart_div {
+  background-color: #5c1391;
+  height: 43px;
+  width: 167px;
+  border-radius: 7px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+.icon_cart_div .icon_size {
+  height: 25px;
+  width: 25px;
+}
+.hero_sec .cart_text p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  #hero_sec {
+    height: auto;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+  #hero_sec .content {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; */
+  }
+  .img_div img {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #hero_sec h1 {
+    padding-top: 20px;
+    font-size: 37px;
+  }
+  #hero_sec h3 {
+    font-size: 25px;
+  }
+  .hero_sec .add_to_cart_div {
+    height: 38px;
+    width: 152px;
+  }
+}
+
+.truncated-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal; /* Allow wrapping */
+  max-width: 100%; /* Adjust width as needed */
+}

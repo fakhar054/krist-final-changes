@@ -1,0 +1,11 @@
+#brandSlider {
+}
+#brandSlider img {
+  width: 158px !important;
+  height: 50px;
+}
+#brandSlider hr {
+  height: 1px;
+  width: 100%;
+  color: #626665;
+}

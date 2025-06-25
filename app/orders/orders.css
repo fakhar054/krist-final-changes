@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+.my_Orders {
+  font-family: "Jost" !important;
+  position: relative;
+}
+.heading_div {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.first_main_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.position_fixed {
+  position: sticky;
+  top: 80px;
+  max-height: 80vh;
+  /* overflow-y: auto; */
+}
+.my_profile {
+  position: relative;
+}
+.my_Orders .my_profile h1 {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Jost" !important;
+}
+
+.my_Orders .left_align_div {
+  display: flex;
+  justify-content: end;
+}
+.my_Orders .input_search_div {
+  width: 530px;
+  height: 42px;
+  /* border: 1px solid black; */
+  position: relative;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.my_Orders .input_search_div input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  outline: none !important;
+  border: 1px solid black;
+  padding-left: 50px;
+}
+
+.my_Orders .input_search_div .search_icon {
+  font-size: 31px;
+  color: #626665;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.my_Orders .filer_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  gap: 20px;
+  max-width: 140px;
+  height: 100%;
+  background-color: black;
+  color: white;
+  padding: 4px 15px;
+  border-radius: 11px;
+  cursor: pointer;
+}
+.my_Orders .filer_div {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.filer_div .icon_filter {
+  color: white;
+  font-size: 70px;
+}
+.my_Orders .product_image {
+  margin-top: 132px;
+}
+.my_Orders .product_image img {
+  width: 69px;
+  height: 71px;
+}
+.my_Orders .single_order_div {
+  border-bottom: 1px solid #b8b9b9;
+}
+.my_Orders .img_content_div {
+  display: flex;
+  gap: 10px;
+  /* justify-content: end; */
+}
+.my_Orders .img_content_div h6 {
+  margin-bottom: 0 !important;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Jost" !important ;
+}
+.my_Orders .img_content_div p {
+  margin-top: 0 !important;
+}
+.my_Orders .flex_div_props {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+.my_Orders .flex_div_props p#delivered {
+  background-color: #06a31e21;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #05961b;
+}
+
+.my_Orders .flex_div_props p#Inprocess {
+  background-color: #fcf7ea;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #f2ca00;
+}
+.content_div {
+  flex: 1.5;
+}
+
+.right_side {
+  flex: 1;
+}
+
+.in_prograss {
+  background-color: #fcf7ea !important;
+  color: #f2ca00 !important;
+}
+.single_order_div p#price {
+  font-weight: 700;
+  font-weight: 14px;
+}
+.single_order_div .view_div {
+  display: flex;
+  gap: 10px;
+}
+.single_order_div .view_div .button_div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.single_order_div .view_div button {
+  font-weight: 600;
+  font-size: 12px;
+  padding: 10px 10px;
+  border-radius: 11px;
+}
+.single_order_div .view_div button.view_order {
+  background-color: white;
+}
+.single_order_div .view_div button.write_review {
+  background-color: black;
+  color: white;
+}
+.single_order_div .view_div button.cancel {
+  background-color: #ff7262;
+  color: white;
+}
+
+@media screen and (max-width: 850px) {
+  .margin_top {
+    margin-top: 50px !important;
+  }
+}

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Jost", serif;
+}
+.features_div {
+  padding: 10px 15px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.feature img {
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
+}
+
+.feature h4 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.feature p {
+  color: #666;
+  font-size: 0.9rem;
+}
+.feature img {
+  max-width: 34px;
+  max-height: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  .features {
+    justify-content: center;
+  }
+}

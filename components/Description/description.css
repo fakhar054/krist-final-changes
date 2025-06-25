@@ -1,0 +1,10 @@
+p.tab_heading {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+p.details_p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #626665;
+}

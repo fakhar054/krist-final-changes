@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Jost", serif;
+}
+
+.active {
+  background-color: black !important;
+  color: white;
+}
+.icon_size_shiping {
+  font-size: 18px;
+}
+.page_address {
+  font-family: "Jost", serif;
+  position: relative !important;
+  /* max-width: 1300px; */
+}
+.page_address .mar_top {
+  margin-top: 90px !important;
+}
+.heading_div {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: 1px solid black;
+}
+.page_address h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.icons_parent_div {
+  position: relative;
+  max-height: 38px;
+}
+
+.page_address .icons_div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 3%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.icon {
+  padding: 10px 14px;
+  background-color: #d9d9d9;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.page_address h4 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.page_address input,
+.page_address select {
+  /* height: 59px; */
+  border-radius: 6px;
+  /* border: 1px solid black; */
+  max-width: 669px;
+  box-shadow: none !important;
+}
+
+.page_address label {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Jost", serif;
+}
+
+input::placeholder {
+  font-size: 20px;
+  color: #b8b9b9;
+  font-weight: 400;
+}
+
+.page_address button {
+  max-width: 300px;
+  height: 52px;
+  border-radius: 6px;
+  color: white;
+  background-color: black;
+}
+
+.page_address button:hover {
+  background-color: black;
+}
+
+.item_details p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.item_products {
+  border-bottom: 1px solid #b8b9b9;
+}
+
+.item_details p#item_price,
+.item_details p#item_size {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0 !important;
+}
+
+.item_details p#item_price {
+  color: #626665;
+}
+
+.item_details p#item_size {
+  color: #252525;
+}
+
+.img_div_flex {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+.name_parent_div {
+  border-bottom: 1px solid #b8b9b9;
+}
+.name_edit {
+  display: flex;
+  justify-content: space-between;
+}
+.name_edit h5 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Jost" !important ;
+  margin-bottom: 0 !important;
+}
+.address_section p#home_add {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 04px;
+}
+
+.review_pop_up {
+  z-index: 1000;
+  display: none;
+  position: absolute;
+  top: -90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: top 0.5s ease-in-out;
+  max-width: 792px;
+  max-height: 492px;
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 04% 10%;
+}
+.pop_up_parent_div {
+  position: relative;
+}
+.pop_up_parent_div .icon_close {
+  position: absolute;
+  color: red;
+  font-size: 30px;
+  top: 0;
+  left: 0;
+}
+.show {
+  display: block !important;
+  top: 30% !important;
+}
+.review_pop_up {
+  z-index: 1;
+}
+.review_pop_up p#confirm {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Jost" !important ;
+  color: black;
+  line-height: 10px;
+  margin-top: 15px;
+}
+.review_pop_up p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #626665;
+}
+.review_pop_up .btn_div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  align-items: center;
+}
+.review_pop_up button {
+  width: 100%;
+}
+.review_pop_up button#back_to_home {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 1050px) {
+  .review_pop_up {
+    padding: 3% 04%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .small_form {
+    margin-top: 40px;
+  }
+  .review_pop_up p#confirm {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .review_pop_up {
+    width: 100% !important;
+  }
+
+  .review_pop_up p#confirm {
+    line-height: 35px;
+    margin-top: 5px;
+  }
+  .box_div {
+    width: 100% !important;
+  }
+}

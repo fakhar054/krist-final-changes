@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+.specfication {
+  font-family: "Jost" !important;
+}
+.specfication h1 {
+  font-family: "Jost" !important;
+}
+.specfication .border_bottom {
+  border-bottom: 1px solid #b8b9b9;
+}
+.spec_info_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.display_main_div .spec_item {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 50%;
+}
+.specfication h6 {
+  margin-bottom: 0 !important;
+}

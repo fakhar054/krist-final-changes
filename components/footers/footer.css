@@ -1,0 +1,133 @@
+#footer {
+  background-color: #131118;
+  color: white;
+}
+.border_bottom {
+  border-bottom: 1px solid #626665;
+}
+#footer .single_div {
+  display: flex;
+  gap: 10px;
+}
+#footer .icon_size {
+  height: 28px;
+  width: 28px;
+}
+#footer li {
+  cursor: pointer;
+}
+#footer .text_div {
+  font-family: "Jost" !important;
+}
+#footer .text_div p {
+  font-size: 16px;
+  font-weight: 300;
+}
+#footer img#logo_footer {
+  padding-bottom: 14px;
+  max-width: 110px;
+  max-height: auto !important;
+}
+#footer .parent_div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#footer .small_heading {
+  font-weight: 700;
+  font-weight: 24px;
+  font-family: "Jost" !important;
+}
+#footer ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+#footer ul li {
+  list-style: none;
+}
+#footer ul li a {
+  text-decoration: none;
+  font-family: "Jost" !important;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 300;
+}
+#footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#footer .input_box_div {
+  width: 300px;
+  height: 45px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 11px;
+}
+#footer p#input_text {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Jost" !important;
+}
+#footer input {
+  width: 100%;
+  height: 100%;
+  border-radius: 11px;
+  background: transparent;
+  color: white;
+  padding: 10px 45px;
+}
+#footer input::placeholder {
+  color: #b8b9b9;
+}
+#footer .input_icon_size {
+  width: 18px;
+  height: 18px;
+}
+#footer .email_icon {
+  position: absolute;
+  left: 10px;
+}
+#footer .email_arrow {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+#footer hr {
+  width: 100%;
+  color: #626665;
+  height: 1px;
+}
+
+#footer .bottom_foter {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#footer .icon_div {
+  color: white;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#footer .bottom_foter .icon_div .social_icon_size {
+  width: 28px;
+  height: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  #footer .bottom_foter {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #footer .icon_div {
+    /* flex-direction: column; */
+    justify-content: center;
+  }
+}

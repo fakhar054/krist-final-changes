@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+.heading_div {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.mar_top {
+  margin-top: 90px;
+}
+
+.first_flex_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Jost" !important ;
+}
+
+.first_flex_div .img_div {
+  position: relative;
+}
+.first_flex_div .edit_icon {
+  background-color: black;
+  padding: 3px 5px;
+  border-radius: 4px;
+  color: white;
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+}
+
+.first_flex_div .img_div img {
+  height: 114px;
+  width: 114px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.first_flex_div .edit_btn {
+  display: flex;
+  gap: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 7px;
+}
+
+/* form-css */
+.perosnal_info_form label {
+  font-family: "Jost" !important;
+  font-weight: 400;
+  font-size: 16px;
+}
+.perosnal_info_form input {
+  border-radius: 11px !important;
+}
+.submit_btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-family: "Jost" !important;
+  width: 32%;
+}
+.perosnal_info_form .row {
+  flex-wrap: wrap !important;
+}
+.margin_bottom {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .perosnal_info_form input {
+    margin-bottom: 20px;
+  }
+}

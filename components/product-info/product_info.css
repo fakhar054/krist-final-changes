@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Jost" !important;
+}
+.prodct_info h1.prod_head {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Jost" !important;
+  margin-bottom: 0 !important;
+}
+.prodct_info .flex_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prodct_info p#stock {
+  padding: 10px 15px;
+  background-color: #06a31e21;
+  color: #05961b;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.prodct_info p#prod_name {
+  font-weight: 300;
+  font-size: 32px;
+  color: black;
+}
+.prodct_info .review_icon {
+  align-items: center;
+  gap: 30px;
+}
+.prodct_info .social_icons {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.icon_props {
+  font-size: 30px;
+  color: #ffcc00;
+}
+span.reviews {
+  color: #626665;
+  font-size: 24px;
+  font-weight: 400;
+}
+.prodct_info .price_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #626665;
+}
+.price_div p {
+  margin-top: 0 !important;
+}
+
+.price_div p.old_price {
+  color: #b8b9b9;
+}
+.prodct_info p.pro_details_para1 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 30px;
+}
+
+p#color_word {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.prodct_info .box-container {
+  display: flex;
+  gap: 20px;
+}
+.prodct_info .box-container .box {
+  height: 32px;
+  width: 32px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.prodct_info .box-container .box.active {
+  background-color: black;
+  color: white;
+}
+
+.prodct_info .box-red {
+  background-color: red;
+}
+.prodct_info .box-blue {
+  background-color: blue;
+}
+.prodct_info .box-yellow {
+  background-color: yellow;
+}
+
+.prodct_info .box-black {
+  background-color: black;
+}
+.prodct_info .box-green {
+  background-color: green;
+}
+.prodct_info .quantity_div {
+  border: 1px solid black;
+  width: 90px;
+  height: 44px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 3px 5px;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+  cursor: pointer;
+}
+.prodct_info .btns_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 44px;
+}
+
+.prodct_info .btn_div {
+  background-color: black;
+  color: white;
+  height: 100%;
+  padding: 0 50px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.prodct_info .btns_div .heart_div {
+  border: 1px solid black;
+  height: 100%;
+  width: 44px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.heart_div .icon_size {
+  font-size: 20px;
+}

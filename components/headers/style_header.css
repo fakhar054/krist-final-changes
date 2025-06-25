@@ -1,0 +1,257 @@
+.icon_div_main {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.nav_main_width {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+.uc-navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+.uc-navbar-nav li {
+  margin: 0 24px;
+}
+.uc-navbar-right {
+  margin-left: 0 !important;
+  width: 70%;
+}
+@media (max-width: 600px) {
+  .icon_div_main {
+    margin-right: 18px;
+  }
+}
+.img_div {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.cart_counter {
+  position: absolute;
+  top: -7px;
+  right: -10px;
+  background: #000000;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.pop_up_compoent {
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  background-color: white !important;
+  border: 1px solid black;
+  visibility: hidden;
+  transition: visibility 0.3s ease-in-out;
+  z-index: 999;
+}
+.show_popup {
+  visibility: visible !important;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+.icons .search_div {
+  position: absolute;
+  top: 53px;
+  left: 0px;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.active {
+  visibility: visible !important;
+}
+.icons .search_input {
+  outline: none !important;
+  padding: 2px 3px;
+  border-radius: 5px;
+  /* max-width: 100px; */
+}
+.icon_size {
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+img.icon_size {
+  /* margin-left: 20px; */
+}
+
+@media (max-width: 600px) {
+  img.icon_size {
+    margin-left: 8px;
+  }
+}
+.btn_black {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  height: 37px;
+  width: 73px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.nav_main_width {
+  width: 100%;
+}
+.increase_width_left {
+  /* width: 30%; */
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 750px) {
+  .increase_width_left {
+    max-width: 30%;
+  }
+}
+
+.search_div {
+  position: relative;
+  width: 0px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+  transition: width 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 2px solid #ccc;
+}
+
+.search_div.active {
+  width: 250px; /* Expanded width */
+  box-shadow: 0 0 8px rgba(30, 42, 54, 0.4);
+}
+
+.search_icon {
+  font-size: 18px;
+  color: #777;
+  margin: 0 12px;
+  transition: color 0.3s ease-in-out;
+}
+
+.search_div.active .search_icon {
+  color: #666666;
+}
+
+.search_input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none !important;
+  outline: none !important;
+  background: transparent;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+
+.search_div.active .search_input {
+  opacity: 1;
+}
+
+.heart-container {
+  position: relative;
+  /* width: 60px;
+  height: 60px; */
+}
+
+.orbit-dots {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: orbit 2s linear infinite;
+}
+
+.dot1 {
+  top: 0;
+  left: 50%;
+  background-color: #ff7171;
+  animation-delay: 0s;
+}
+.dot2 {
+  top: 14.64%;
+  left: 85.36%;
+  background-color: #377b37;
+  animation-delay: 0.25s;
+}
+.dot3 {
+  top: 50%;
+  left: 100%;
+  background-color: #afaf29;
+  animation-delay: 0.5s;
+}
+.dot4 {
+  top: 85.36%;
+  left: 85.36%;
+  background-color: #7a5afb;
+  animation-delay: 0.75s;
+}
+.dot5 {
+  top: 100%;
+  left: 50%;
+  background-color: #e62575;
+  animation-delay: 1s;
+}
+.dot6 {
+  top: 85.36%;
+  left: 14.64%;
+  background-color: #967e77;
+  animation-delay: 1.25s;
+}
+.dot7 {
+  top: 50%;
+  left: 0;
+  background-color: #d432c7;
+  animation-delay: 1.5s;
+}
+.dot8 {
+  top: 14.64%;
+  left: 14.64%;
+  background-color: #00bcd4;
+  animation-delay: 1.75s;
+}
+
+@keyframes orbit {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

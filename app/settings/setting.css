@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+.settings {
+  font-family: "Jost" !important;
+  position: relative;
+}
+
+h1.profile_heading {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Jost" !important;
+}
+.heading_div {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.my_page {
+  margin-top: 90px;
+}
+.settings .parent_flex_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b8b9b9;
+}
+
+.settings .content_div p {
+  margin-right: 10px;
+}
+.settings .content_div h6 {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Jost" !important;
+  margin-bottom: 0 !important;
+}
+.settings .time button {
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  background-color: #d9d9d9;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.settings .time {
+  align-self: flex-end;
+}
+
+/* ToggleButton.module.css */
+.toggle {
+  display: inline-block;
+  width: 35px;
+  height: 18px;
+  position: relative;
+  border-radius: 18px;
+  background: #ccc;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.toggle input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s ease;
+}
+
+.toggle input:checked + .slider {
+  transform: translateX(17px);
+}
+
+.toggle input:checked + .slider::before {
+  background: #4caf50;
+}
+
+@media screen and (max-width: 700px) {
+  .second_row {
+    margin-top: 20px !important;
+  }
+}

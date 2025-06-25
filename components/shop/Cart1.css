@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+h1.check {
+  font-weight: 400;
+  font-size: 32px;
+  font-family: "Jost" !important;
+}
+.cart-details thead tr {
+  border-bottom: 1px solid #b8b9b9 !important;
+}
+.cart-details tr th {
+  color: #626665;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.first-col {
+  width: 60%;
+}
+.other-cols {
+  width: 12% !important;
+}
+.last-col {
+  width: 4% !important;
+  visibility: hidden;
+}
+
+.delete_icon_table {
+  color: #ff5c5e;
+  cursor: pointer;
+}
+.title_size {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.title_size h5 {
+  font-size: 20px !important;
+  font-weight: 600;
+  font-family: "Jost" !important;
+}
+.title_size p {
+  font-size: 20px !important;
+  font-weight: 400;
+  font-family: "Jost" !important;
+  color: #252525;
+}
+.icon_style {
+  font-size: 24px;
+  color: red;
+}
+.cart-details label {
+  font-size: 12px;
+  font-weight: 400;
+  color: #626665;
+}
+.cart-details .input_div {
+  height: 41px;
+  width: 298px;
+  border-radius: 6px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+.cart-details input.cupon_input {
+  border-right: none;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid black;
+  width: 100%;
+  border: none !important;
+  outline: none !important;
+  padding-left: 10px;
+}
+.cart-details button.apply {
+  height: 100%;
+  width: 73px;
+  border-left: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.cart-details tr {
+  width: 90% !important;
+  margin: 0 20px !important ;
+}
+.cart-details tr.border_bottom {
+  border-bottom: 1px solid #b8b9b9 !important;
+}
+.cart-details .table_border {
+  border: 1px solid black;
+}
+.cart-details .sub_total {
+  font-size: 11px;
+  font-weight: 500;
+  font-family: "Jost" !important;
+}
+.cart-details .delivery_charges {
+  font-weight: 500;
+  font-size: 11px;
+  color: black;
+}
+.cart-details tr {
+  border: none !important;
+}
+.font_family {
+  font-family: "Jost" !important;
+}
+.cart-details .grand_total {
+  font-size: 10px;
+  font-weight: 600;
+}
+.cart-details .check_out_btn {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.cart-details .checkout_td {
+  width: 100%;
+}
+.text_align_right {
+  text-align: right;
+}
+
+.checkout_td a {
+  text-decoration: none;
+  padding: 16px 39px;
+}
+
+@media screen and (max-width: 992px) {
+  .cart-details .input_div {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 592px) {
+  .first-col {
+    width: 50% !important;
+  }
+  .table-container {
+    overflow-x: auto !important;
+  }
+  .table#table {
+    min-width: 600px !important;
+  }
+  .other-cols {
+    width: 15% !important;
+  }
+  .last-col {
+    width: 5% !important;
+  }
+  .title_size {
+    gap: 10px !important;
+  }
+  h5.title {
+    font-size: 17px !important;
+    font-weight: 500;
+  }
+  .title_size p {
+    font-size: 16px !important;
+  }
+}

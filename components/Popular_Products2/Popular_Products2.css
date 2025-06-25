@@ -1,0 +1,44 @@
+#Popular_Products2 {
+  font-family: "Jost" !important;
+}
+
+#Popular_Products2 h1 {
+  font-family: "Jost" !important;
+  font-size: 40px;
+  font-weight: 800;
+}
+#Popular_Products2 .card_parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#Popular_Products2 h5 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#Popular_Products2 p {
+  font-size: 16px;
+  font-weight: 300;
+}
+#Popular_Products2 .single_card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f6f6f6;
+  padding: 10px 15px;
+  width: 512px;
+  height: 99px;
+}
+#Popular_Products2 .single_card img {
+  height: 58px;
+  width: 58px;
+}
+
+@media screen and (max-width: 1024px) {
+  #Popular_Products2 .single_card {
+    width: 460px;
+  }
+}

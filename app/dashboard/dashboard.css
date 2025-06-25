@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+.heading_div {
+  width: 100%;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 1000 !important;
+}
+.mar_top {
+  margin-top: 132px !important;
+}
+
+.first_flex_div {
+  font-family: "Jost" !important ;
+}
+
+.card_dash {
+  padding: 25px;
+  box-shadow: 1px 0px 5px rgb(239, 239, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.card_dash p {
+  margin-top: 10px;
+  color: #767676;
+  font-size: 18px;
+  font-weight: 500;
+}

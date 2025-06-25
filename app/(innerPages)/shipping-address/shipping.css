@@ -1,0 +1,27 @@
+.page_address {
+  position: relative;
+}
+
+.page_address p#btn {
+  margin-top: 0 !important;
+}
+.heading_div_2 {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: none !important;
+}
+.mar_top {
+  margin-top: 100px;
+}
+.select_div {
+  width: 100%;
+}
+.select_div label {
+  width: 100%;
+}
+select {
+  width: 100%;
+}

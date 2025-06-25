@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Jost" !important;
+}
+.Product_Categories ul {
+  margin-top: 20px;
+  padding-left: 0 !important;
+}
+.Product_Categories ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.heading_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #b8b9b9;
+}
+.Product_Categories .heading_icon h3 {
+  margin-bottom: 0 !important;
+  font-family: "Jost" !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Product_Categories .color_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Product_Categories .color_div p {
+  margin-top: 0 !important;
+}
+
+button.drop_down {
+  outline: none;
+  border: none;
+  background: none !important;
+  font-size: 20px;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0 !important;
+}
+.drop_down_icon {
+  font-weight: 500;
+  font-size: 30px;
+  /* height: 20px;
+  width: 20px; */
+}
+.dropdown_menu_list ul {
+  padding-left: 0 !important;
+}
+.dropdown_menu_list ul li {
+  height: 20px;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Jost" !important ;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: transparent;
+}
+p#path {
+  text-align: center;
+}
+
+.red {
+  background-color: red !important;
+}
+.red:checked::before {
+  background-color: transparent !important;
+}
+.orange {
+  background-color: orange !important;
+}
+.orange:checked::before {
+  background-color: transparent !important;
+}
+
+.blue {
+  background-color: blue !important;
+}
+.blue:checked::before {
+  background-color: transparent !important;
+}
+.yellow {
+  background-color: yellow !important;
+}
+.yellow:checked::before {
+  background-color: transparent !important;
+}
+
+.black {
+  background-color: black !important;
+}
+.green {
+  background-color: green !important;
+}
+.green:checked::before {
+  background-color: transparent !important;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked::before {
+  background-color: green;
+  width: 100%;
+  height: 100%;
+  content: "✔";
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+} */
+
+input.red-checkbox[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: red !important;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+input.red-green[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: green !important;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .Product_Categories{
+    display: none;
+  }
+}

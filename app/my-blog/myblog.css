@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Jost" !important ;
+}
+.blog_section {
+  position: relative;
+}
+
+.heading_div {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.blogs_row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.single_card {
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.single_card img {
+  width: 100%;
+  height: 200px;
+}
+
+.single_card span {
+  color: rgb(169, 169, 169);
+}
+
+.blogs_row h3 {
+  font-family: "Jost" !important ;
+  margin-top: 12px;
+}
+
+.blogs_row p a {
+  color: #000;
+  margin-top: 12px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.main_div {
+  margin-top: 146px;
+}
+.main_div .pagination {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: end;
+}
+.main_div .pagination p {
+  margin-top: 0 !important;
+  margin: 0 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+@media screen and (max-width: 768px) {
+  .blogs_row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.right_sec li a {
+  font-size: 18px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: gray;
+  text-decoration: none;
+}
+
+.right_sec li {
+  margin-bottom: 12px;
+}
+
+.right_sec li:first-child,
+.right_sec li:hover {
+  color: #000;
+}
+
+.skeleton-loader {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skeleton-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.skeleton-image {
+  width: 100%;
+  height: 200px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.skeleton-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skeleton-title,
+.skeleton-detail,
+.skeleton-read-more {
+  background-color: #ddd;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.skeleton-title {
+  width: 70%;
+}
+
+.skeleton-detail {
+  width: 90%;
+}
+
+.skeleton-read-more {
+  width: 50%;
+}

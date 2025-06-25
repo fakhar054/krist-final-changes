@@ -1,0 +1,11 @@
+.set_parent {
+  position: relative;
+}
+.heading_div {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: 1px solid black;
+}

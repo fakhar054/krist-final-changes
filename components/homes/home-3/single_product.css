@@ -1,0 +1,20 @@
+* {
+  font-family: "Jost" !important;
+}
+#single_product_brand .single_product_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  width: 210px;
+  padding: 20px 10px;
+}
+#single_product_brand .single_product_div img {
+  width: 103px;
+  height: 96px;
+}
+#single_product_brand .single_product_div p {
+  font-size: 15px;
+  font-weight: 400;
+}

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+.review_sec {
+  font-family: "Jost" !important;
+}
+.review_sec .flex_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #b8b9b9;
+}
+.review_sec .heading_sec {
+  max-height: 170px;
+}
+.review_sec .heading_sec h3 {
+  margin-bottom: 0;
+}
+.flex_div .icon_size {
+  font-size: 30px;
+}
+.review_sec .review_row .star_icon {
+  color: #ffab2c;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review_sec .progress-bar {
+  width: 200px;
+  height: 10px;
+  background: #dadada;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  width: 80%;
+  height: 100%;
+  background: #60479c;
+}
+.second {
+  width: 60%;
+}
+
+.zero {
+  width: 0%;
+}
+.review_sec .parent_flex_div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.review_sec .parent_flex_div h1 {
+  margin-bottom: 0 !important;
+  font-size: 53px;
+  font-weight: 800;
+}
+.parent_flex_div .stars_review {
+  display: flex;
+  flex-direction: column;
+  gap: 04px;
+}
+.review_sec .stars_div {
+  display: flex;
+  gap: 03px;
+  color: #ffab2c;
+}
+.product_review .star_icon {
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  border-radius: 6px;
+  background-color: #b8b9b9;
+  color: white;
+}
+.product_review .active {
+  background-color: #ffab2c;
+}
+.review_sec .first_row {
+  border-bottom: 1px solid #b8b9b9;
+}
+.review_sec .filter_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review_sec .filter_div p {
+  color: #60479c;
+}
+.review_sec .filter_div h6 {
+  margin-bottom: 0 !important;
+}
+.review_sec .last_sec h4 {
+  margin-bottom: 0;
+}
+.review_sec .last_sec button {
+  margin-top: 20px;
+
+  width: 80%;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 12px;
+}

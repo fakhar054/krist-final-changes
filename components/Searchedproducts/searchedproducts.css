@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Jost", serif;
+}
+.Searchedproducts {
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+}
+.Searchedproducts .container {
+  padding: 0 !important;
+}
+.Searchedproducts .col-4 {
+  padding: 0 !important;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.Searchedproducts .img_div {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  background-color: #f6f6f6 !important;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Searchedproducts img {
+  width: 200px;
+}
+
+.Searchedproducts .row {
+  flex-wrap: nowrap !important;
+}
+.Searchedproducts .product_info {
+  margin-left: 20px;
+}
+.Searchedproducts .product_info h4 {
+  margin-bottom: 0 !important;
+}
+.Searchedproducts .btn_add_to_cart {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 7px 10px;
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,41 @@
+.uc-navbar-nav {
+  /* display: none !important; */
+  background-color: #f6f6f6;
+  height: 50px;
+  align-items: center;
+  /* box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);  */
+}
+
+li.uc-nav-header {
+  font-size: 14px;
+  font-weight: 700;
+  /* margin-bottom: 20px; */
+}
+
+li a.inActiveMenu {
+  color: #626665 !important;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+.custom_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.custom_width {
+  width: 80%;
+  position: absolute !important;
+  top: 143px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  visibility: hidden;
+  padding: 20px 30px;
+  background-color: white;
+  z-index: 35;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.has-dd-menu:hover .custom_width {
+  visibility: visible;
+}

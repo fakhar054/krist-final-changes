@@ -1,0 +1,101 @@
+.small_form {
+  font-family: "Jost" !important;
+  max-width: 343px;
+  border-radius: 11px;
+  border: 1px solid #626665;
+}
+.space_between {
+  justify-content: space-between !important;
+  font-size: 14px;
+  font-weight: 700;
+}
+.space_between label {
+  font-size: 14px;
+  font-weight: 700;
+}
+.small_form .input_div {
+  max-height: 25px !important;
+  max-width: 300px !important;
+  display: flex !important;
+}
+.small_form .input_div input {
+  width: calc(100% - 90px);
+  max-height: 25px;
+  border-right: none !important;
+}
+
+.small_form .input_div button {
+  max-width: 73px !important;
+  max-height: 33px !important;
+}
+
+#discount {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+#delivery {
+  font-size: 13px;
+  font-weight: 600 !important;
+  color: black;
+}
+input::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  color: #b8b9b9;
+}
+.small_form .deliver_div {
+  border-bottom: 1px solid #b8b9b9;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+
+
+
+.single_product .pop_up p {
+  margin-top: 0 !important;
+}
+.single_product .pop_up p#total_item {
+  font-size: 14px;
+  font-weight: 500;
+  color: #626665;
+}
+.single_product .pop_up img {
+  width: 125px;
+  height: 75px;
+}
+ .pop_up_parent_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #c5c5c5;
+}
+ .content_div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px !important;
+}
+ .prod_title {
+  font-size: 12px;
+  font-weight: 400;
+}
+ .prod_quantity {
+  font-size: 12px;
+  font-weight: 600;
+}
+ .sizes {
+  font-size: 10px;
+  font-weight: 400;
+}
+ .delete_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.delete_div .icon_prop {
+  font-size: 15px;
+  color: #ff5c5e;
+  cursor: pointer;
+}

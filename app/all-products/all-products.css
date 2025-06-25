@@ -1,0 +1,18 @@
+.all_product {
+  position: relative;
+}
+.heading_div {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.margin_top {
+  /* margin-top: 230px !important; */
+}
+@media screen and (max-width: 992px) {
+  .show_not {
+    display: none;
+  }
+}
